@@ -9,6 +9,14 @@
     ["contexte", "Contexte"], ["chrono", "Chronologie"],
   ];
   const themeName = (id) => (ALL_THEMES.find((t) => t.id === id) || {}).titre || id;
+  // Une couleur par période, de l'Antiquité à 1914.
+  const COLORS = {
+    grece: "#2b7fd4", macedoine: "#8b5cf6", "rome-orient": "#e0475b", "fin-rome": "#64748b",
+    francs: "#0f9f87", capetiens: "#3554d1", "cent-ans": "#ea6a3f", renaissance: "#c2418f",
+    absolutisme: "#2f9e44", revolution: "#0e8ab0", melange: "#475569",
+  };
+  const tc = (id) => `--tc:${COLORS[id] || "#3554d1"}`;
+  document.getElementById("ribbon").innerHTML = THEMES.map((t) => `<i style="${tc(t.id)}"></i>`).join("");
   const $app = document.getElementById("app");
 
   // ── Stockage local (progression) ──────────────────────────────
@@ -64,7 +72,8 @@
 
     h(`
       <div class="section-title">Thèmes <small style="text-transform:none;letter-spacing:0">(aucun = tous)</small></div>
-      <div class="chips">${ALL_THEMES.map((t) => chip("themes", t.id, t.titre, `<small>${QUESTIONS.filter((q) => q.t === t.id).length}</small>`)).join("")}</div>
+      <div class="chips">${ALL_THEMES.map((t) => chip("themes", t.id, t.titre, `<small>${QUESTIONS.filter((q) => q.t === t.id).length}</small>`)
+        .replace('class="chip"', `class="chip theme" style="${tc(t.id)}"`).replace(">" + esc(t.titre), `><span class="tc-dot"></span>${esc(t.titre)}`)).join("")}</div>
 
       <div class="section-title">Types de questions <small style="text-transform:none;letter-spacing:0">(aucun = tous)</small></div>
       <div class="chips">${TYPES.map(([id, l]) => chip("types", id, l)).join("")}</div>
@@ -113,7 +122,7 @@
     const q = run.list[run.i];
     if (q.type === "chrono") return renderChrono(q);
     const choices = shuffle([q.ok, ...q.bad]);
-    h(`<div class="card">${header()}
+    h(`<div class="card themed" style="${tc(q.t)}">${header()}
       <div class="answers">${choices.map((c, k) => `<button class="answer" data-v="${esc(c)}"><span class="k">${"ABCD"[k]}</span><span>${esc(c)}</span></button>`).join("")}</div>
       <div id="fb"></div></div>`);
     $app.querySelectorAll(".answer").forEach((b) => b.addEventListener("click", () => {
@@ -131,7 +140,7 @@
   function renderChrono(q) {
     const items = shuffle(q.order);
     const picked = [];
-    h(`<div class="card">${header()}
+    h(`<div class="card themed" style="${tc(q.t)}">${header()}
       <div class="chrono-picked" id="picked"></div>
       <div class="chrono-pool" id="pool"></div>
       <div class="row" style="margin-top:14px"><button class="btn secondary" id="undo">Annuler</button><button class="btn" id="check" disabled>Valider</button></div>
@@ -197,8 +206,8 @@
     h(`
       <p class="hint" style="margin-top:16px">Tes notes, remises au propre et classées par période.</p>
       <div style="margin-top:12px">${THEMES.map((t) => `
-        <details class="fiche card">
-          <summary><h3>${esc(t.titre)}</h3><span class="per">${esc(t.periode)}</span></summary>
+        <details class="fiche card" style="${tc(t.id)}">
+          <summary><h3><span class="tc-dot"></span>${esc(t.titre)}</h3><span class="per">${esc(t.periode)}</span></summary>
           ${t.fiche.map(([d, txt]) => `<div class="entry"><div class="d">${esc(d)}</div><p>${esc(txt)}</p></div>`).join("")}
           <button class="btn secondary" style="margin-top:12px" data-quiz="${t.id}">Réviser ce thème</button>
         </details>`).join("")}</div>
