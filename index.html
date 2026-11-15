@@ -146,6 +146,13 @@
     details.fiche { border-left: 5px solid var(--tc); }
     details.fiche > summary h3 { font-size: 1.1rem; display: flex; align-items: center; gap: 10px; }
     details.fiche .entry .d { color: var(--tc); }
+    a.wiki {
+      display: inline-flex; align-items: center; gap: 6px; margin-top: 8px; padding: 5px 10px 5px 8px; border-radius: 99px;
+      font-size: .8rem; font-weight: 600; text-decoration: none; color: var(--tc, var(--accent));
+      background: color-mix(in srgb, var(--tc, var(--accent)) 12%, transparent); max-width: 100%;
+    }
+    a.wiki:hover { background: color-mix(in srgb, var(--tc, var(--accent)) 22%, transparent); }
+    a.wiki svg { width: 15px; height: 15px; flex: none; }
     details.fiche > summary .per { color: var(--muted); font-size: .8rem; white-space: nowrap; }
     details.fiche[open] > summary { margin-bottom: 12px; }
     .entry { display: grid; grid-template-columns: 96px 1fr; gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); }
@@ -184,6 +191,7 @@
   </nav>
 
   <script src="fiches.js"></script>
+  <script src="wiki.js"></script>
   <script src="questions.js"></script>
   <script src="app.js"></script>
 </body>

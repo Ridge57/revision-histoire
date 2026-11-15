@@ -207,7 +207,13 @@
       <div style="margin-top:12px">${THEMES.map((t) => `
         <details class="fiche card" style="${tc(t.id)}">
           <summary><h3><span class="tc-dot"></span>${esc(t.titre)}</h3><span class="per">${esc(t.periode)}</span></summary>
-          ${t.fiche.map(([d, txt]) => `<div class="entry"><div class="d">${esc(d)}</div><p>${esc(txt)}</p></div>`).join("")}
+          ${t.fiche.map(([d, txt], i) => {
+            const w = (window.WIKI && window.WIKI[t.id] || [])[i];
+            const link = w ? `<a class="wiki" href="https://fr.wikipedia.org/wiki/${encodeURIComponent(w.replace(/ /g, "_"))}" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 6h4m-2 0 4.2 12L13 9.5 16.3 18 20.5 6m-2.5 0h4M11 6h4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              En savoir plus · ${esc(w)}</a>` : "";
+            return `<div class="entry"><div class="d">${esc(d)}</div><div><p>${esc(txt)}</p>${link}</div></div>`;
+          }).join("")}
           <button class="btn secondary" style="margin-top:12px" data-quiz="${t.id}">Réviser ce thème</button>
         </details>`).join("")}</div>
     `);
