@@ -16,7 +16,6 @@
     absolutisme: "#2f9e44", revolution: "#0e8ab0", melange: "#475569",
   };
   const tc = (id) => `--tc:${COLORS[id] || "#3554d1"}`;
-  document.getElementById("ribbon").innerHTML = THEMES.map((t) => `<i style="${tc(t.id)}"></i>`).join("");
   const $app = document.getElementById("app");
 
   // ── Stockage local (progression) ──────────────────────────────

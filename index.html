@@ -56,8 +56,6 @@
     }
     header.top h1 { font-size: 1.65rem; font-weight: 800; }
     header.top .sub { color: rgba(255,255,255,.82); font-size: .9rem; margin-top: 2px; }
-    .ribbon { display: flex; gap: 3px; margin-top: 14px; height: 6px; }
-    .ribbon i { flex: 1; border-radius: 99px; background: var(--tc); box-shadow: 0 0 0 1px rgba(255,255,255,.35); }
 
     /* Couleur propre à chaque période (--tc) */
     .tc-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--tc); flex: none; }
@@ -90,12 +88,10 @@
     .chip.theme[aria-pressed="true"] { background: var(--tc); border-color: var(--tc); color: #fff; }
     .chip.theme[aria-pressed="true"] .tc-dot { background: #fff; }
     .btn {
-      border: 0; border-radius: 14px; padding: 15px 18px; font-weight: 700; background: var(--accent); color: var(--accent-ink);
-      width: 100%; font-size: 1rem; box-shadow: 0 6px 16px color-mix(in srgb, var(--accent) 30%, transparent);
-      transition: transform .1s;
+      border: 0; border-radius: 14px; padding: 12px 18px; font-weight: 700; background: var(--accent); color: var(--accent-ink);
+      width: 100%; font-size: 1rem; transition: transform .1s;
     }
     .btn:active:not(:disabled) { transform: scale(.98); }
-    .btn.secondary { box-shadow: none; }
     .btn.secondary { background: var(--surface-2); color: var(--ink); }
     .btn:disabled { opacity: .45; cursor: not-allowed; }
     .row { display: flex; gap: 10px; }
@@ -176,7 +172,6 @@
       <div>
         <h1>Révisions d'histoire</h1>
         <div class="sub" id="sub"></div>
-        <div class="ribbon" id="ribbon" aria-hidden="true"></div>
       </div>
     </header>
     <main id="app"></main>
