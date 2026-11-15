@@ -223,6 +223,75 @@
   Q("renaissance", "personnage", "Qui assassine Henri IV en 1610 ?", "Ravaillac", ["Jacques de Molay", "Jean sans Peur", "Martin Luther"], "Henri IV est tué en 1610 par Ravaillac.");
   C("renaissance", "Remets ces événements dans l'ordre :", ["Chute de Constantinople", "Bataille de Marignan", "Massacre de la Saint-Barthélemy", "Édit de Nantes"], "1453 → 1515 → 1572 → 1598.");
 
+  // ─────────────── DE LOUIS XIII À LOUIS XV ───────────────
+  Q("absolutisme", "personnage", "Qui est le ministre principal de Louis XIII ?", "Richelieu", ["Colbert", "Mazarin", "Philippe d'Orléans"], "Louis XIII, jeune roi en 1610, a pour ministre principal Richelieu.");
+  Q("absolutisme", "contexte", "Quel est l'objectif de Richelieu ?", "Rendre l'État plus puissant que les nobles et les factions religieuses", ["Rétablir la liberté de culte des protestants", "Conquérir l'Espagne", "Donner le pouvoir aux parlements"], "Richelieu veut renforcer l'État royal.");
+  Q("absolutisme", "date", "Quelles sont les dates de la guerre de Trente Ans ?", "1618-1648", ["1562-1598", "1688-1697", "1701-1714"], "1618-1648 : de la défenestration de Prague aux traités de Westphalie.");
+  Q("absolutisme", "lieu", "Quel événement de 1618 déclenche la guerre de Trente Ans ?", "La défenestration de Prague", ["L'édit de Fontainebleau", "Le massacre de la Saint-Barthélemy", "Le traité de Ryswick"], "Des protestants défenestrent des représentants catholiques à Prague.");
+  Q("absolutisme", "contexte", "Comment évolue la guerre de Trente Ans ?", "D'une guerre religieuse dans le Saint Empire à une guerre d'influence en Europe", ["D'une guerre coloniale à une guerre civile française", "D'une guerre contre les Ottomans à une croisade", "D'une révolution à une guerre mondiale"], "France, Espagne, Suède, Danemark… s'y impliquent.");
+  Q("absolutisme", "contexte", "Quelle idée les traités de Westphalie (1648) instituent-ils ?", "Les États souverains : chaque État est maître chez lui", ["La monarchie de droit divin", "La séparation des Églises et de l'État", "L'unité religieuse de l'Europe"], "Les autres États n'ont pas à intervenir dans les affaires d'un État.");
+  Q("absolutisme", "date", "Quelles sont les dates du règne de Louis XIV ?", "1643-1715", ["1610-1643", "1715-1774", "1685-1723"], "Louis XIV règne de 1643 à 1715.");
+  Q("absolutisme", "contexte", "Que signifie « monarchie absolue de droit divin » ?", "Le roi considère que son autorité vient de Dieu", ["Le roi est élu par les évêques", "Le pape gouverne à la place du roi", "Le roi partage le pouvoir avec la bourgeoisie"], "Louis XIV incarne la monarchie absolue de droit divin.");
+  Q("absolutisme", "personnage", "Quel ministre de l'économie de Louis XIV encourage la production nationale ?", "Colbert", ["Richelieu", "Law", "Turgot"], "Colbert : verre, tapisserie… pour maximiser les exportations.");
+  Q("absolutisme", "contexte", "Qu'est-ce que le colbertisme ?", "Produire en France pour exporter plus et importer moins (inspiré du mercantilisme)", ["Supprimer tous les impôts", "Laisser le commerce totalement libre", "Financer l'État par la planche à billets"], "Le colbertisme est inspiré du mercantilisme.");
+  Q("absolutisme", "date", "En quelle année Louis XIV promulgue-t-il l'édit de Fontainebleau ?", "1685", ["1598", "1648", "1715"], "1685 : révocation de la liberté de culte des protestants.");
+  Q("absolutisme", "contexte", "Que fait l'édit de Fontainebleau ?", "Il révoque la liberté de culte des protestants", ["Il autorise le protestantisme", "Il met fin à la guerre de Trente Ans", "Il donne l'Alsace à la France"], "Il annule ce que l'édit de Nantes (1598) avait accordé.");
+  Q("absolutisme", "contexte", "Pourquoi Louis XIV révoque-t-il la liberté de culte des protestants ?", "Pour imposer l'unité religieuse et réduire les groupes autonomes", ["Pour s'allier avec les pays protestants", "Pour financer la guerre de Hollande", "Sur ordre du pape Boniface VIII"], "Les protestants avaient leurs lieux de culte et leur organisation communautaire.");
+  Q("absolutisme", "lieu", "Pendant la guerre de Dévolution (1667-1668), où la France conquiert-elle des villes ?", "Aux Pays-Bas espagnols", ["En Alsace", "En Italie", "En Franche-Comté"], "Guerre de Dévolution : conquête de villes aux Pays-Bas espagnols.");
+  Q("absolutisme", "lieu", "Quelle province la France prend-elle pendant la guerre de Hollande (1672-1678) ?", "La Franche-Comté", ["L'Alsace", "La Bretagne", "La Lorraine"], "La France attaque les Provinces-Unies et prend la Franche-Comté.");
+  Q("absolutisme", "date", "Quand la ligue d'Augsbourg est-elle créée ?", "1686", ["1667", "1688", "1697"], "La ligue d'Augsbourg est créée en 1686 face à l'expansion française ; la guerre éclate en 1688.");
+  Q("absolutisme", "contexte", "Quel autre nom donne-t-on à la guerre de la ligue d'Augsbourg ?", "La guerre de Neuf Ans", ["La guerre de Trente Ans", "La guerre de Dévolution", "La guerre de Sept Ans"], "Guerre de la ligue d'Augsbourg ou guerre de Neuf Ans (1688-1697).");
+  Q("absolutisme", "contexte", "Par quel traité se termine la guerre de la ligue d'Augsbourg (1697) ?", "Le traité de Ryswick", ["Le traité d'Utrecht", "Le traité de Westphalie", "Le traité de Rastatt"], "Ryswick : la France garde certains territoires mais doit en rendre d'autres.");
+  Q("absolutisme", "personnage", "Qui le roi d'Espagne désigne-t-il comme successeur, déclenchant la guerre de Succession d'Espagne ?", "Philippe d'Anjou", ["Philippe d'Orléans", "Louis XV", "Charles Quint"], "Philippe d'Anjou est aussi le petit-fils de Louis XIV.");
+  Q("absolutisme", "contexte", "Que craignent les autres puissances pendant la guerre de Succession d'Espagne ?", "Que l'Espagne et la France soient réunies", ["Que l'Espagne devienne protestante", "Que la France perde l'Alsace", "Que l'Angleterre envahisse l'Espagne"], "Philippe d'Anjou, petit-fils de Louis XIV, pourrait régner sur les deux pays.");
+  Q("absolutisme", "date", "Quelles sont les dates de la guerre de Succession d'Espagne ?", "1701-1714", ["1688-1697", "1672-1678", "1618-1648"], "1701-1714, conclue par les traités d'Utrecht (1713) et de Rastatt (1714).");
+  Q("absolutisme", "contexte", "Que prévoit le traité d'Utrecht (1713) pour Philippe d'Anjou ?", "Il renonce au trône de France", ["Il renonce au trône d'Espagne", "Il devient roi de France", "Il cède l'Alsace à l'Espagne"], "Utrecht (1713) : il renonce au trône de France. Rastatt (1714) : partage de territoires.");
+  Q("absolutisme", "lieu", "Quelle région la France conserve-t-elle après la guerre de Succession d'Espagne ?", "L'Alsace", ["La Franche-Comté", "Les Pays-Bas espagnols", "Le Milanais"], "La France conserve l'Alsace.");
+  Q("absolutisme", "personnage", "Qui exerce la régence de 1715 à 1723 ?", "Philippe d'Orléans", ["Philippe d'Anjou", "Colbert", "Richelieu"], "Régence de Philippe d'Orléans, marquée par la crise du système de Law.");
+  Q("absolutisme", "contexte", "Quelle crise marque la Régence ?", "La crise financière du système de Law", ["La défenestration de Prague", "La révocation de l'édit de Nantes", "La Fronde"], "1715-1723 : crise financière du système de Law.");
+  Q("absolutisme", "date", "Quelles sont les dates du règne de Louis XV ?", "1723-1774", ["1715-1723", "1643-1715", "1774-1792"], "Règne de Louis XV : 1723-1774.");
+  Q("absolutisme", "date", "Pendant quelles années l'Encyclopédie est-elle diffusée ?", "1751-1772", ["1715-1723", "1789-1792", "1685-1715"], "L'Encyclopédie (1751-1772), symbole des Lumières sous Louis XV.");
+  C("absolutisme", "Remets ces événements dans l'ordre :", ["Défenestration de Prague", "Traités de Westphalie", "Édit de Fontainebleau", "Traité d'Utrecht"], "1618 → 1648 → 1685 → 1713.");
+  C("absolutisme", "Remets ces guerres de Louis XIV dans l'ordre :", ["Guerre de Dévolution", "Guerre de Hollande", "Guerre de la ligue d'Augsbourg", "Guerre de Succession d'Espagne"], "1667 → 1672 → 1688 → 1701.");
+
+  // ─────────────── RÉVOLUTION, EMPIRES, RÉPUBLIQUES ───────────────
+  Q("revolution", "date", "Quelles sont les dates de la Révolution dans les notes ?", "1789-1792", ["1792-1799", "1799-1804", "1830-1848"], "1789-1792 : Révolution, puis Ire République.");
+  Q("revolution", "date", "Quelles sont les dates de la Ire République ?", "1792-1799", ["1789-1792", "1848-1852", "1870-1940"], "1792-1799 : Ire République (Terreur puis Directoire).");
+  Q("revolution", "date", "Quand a lieu la Terreur ?", "1793-1794", ["1789-1792", "1795-1799", "1799-1804"], "1793-1794 : la Terreur, sous la Ire République.");
+  Q("revolution", "contexte", "Quel régime gouverne la France de 1795 à 1799 ?", "Le Directoire", ["Le Consulat", "La Restauration", "La monarchie de Juillet"], "1795-1799 : le Directoire.");
+  Q("revolution", "date", "En quelle année Napoléon fait-il son coup d'État ?", "1799", ["1792", "1804", "1815"], "1799 : coup d'État, début du Consulat.");
+  Q("revolution", "date", "En quelle année Napoléon se fait-il empereur ?", "1804", ["1799", "1805", "1806"], "1804 : début du Ier Empire.");
+  Q("revolution", "lieu", "Quelle victoire de 1805 Napoléon remporte-t-il contre les empires russe et autrichien ?", "Austerlitz", ["Waterloo", "Sedan", "La Bérézina"], "1805 : Austerlitz.");
+  Q("revolution", "contexte", "Qu'est-ce que la Confédération du Rhin (1806) ?", "Plusieurs États allemands du Saint Empire réunis sous la domination de Napoléon", ["Une alliance de l'Angleterre et de la Prusse contre Napoléon", "Le nouveau nom de l'Autriche", "Une république fondée en Allemagne"], "Conséquence d'Austerlitz.");
+  Q("revolution", "date", "En quelle année le Saint Empire disparaît-il ?", "1806", ["1648", "1805", "1815"], "1806 : éclatement et fin du Saint Empire (fondé en 962 avec Otton Ier).");
+  Q("revolution", "contexte", "Quelle tactique les Russes utilisent-ils contre Napoléon en 1812 ?", "La terre brûlée", ["La guerre d'usure", "La guerre navale", "La guérilla en montagne"], "Campagne de Russie (1812), puis la Bérézina sur le retour.");
+  Q("revolution", "lieu", "Quel passage désastreux marque le retour de la campagne de Russie ?", "La Bérézina", ["Austerlitz", "Waterloo", "Sedan"], "Napoléon est affaibli après la Russie et la Bérézina.");
+  Q("revolution", "lieu", "Après quelle bataille Napoléon abdique-t-il définitivement ?", "Waterloo", ["Austerlitz", "Sedan", "Leipzig"], "Waterloo, contre une coalition anglaise et prussienne.");
+  Q("revolution", "contexte", "Quelle coalition bat Napoléon à Waterloo ?", "Une coalition anglaise et prussienne", ["Une coalition russe et autrichienne", "Une coalition espagnole et portugaise", "Les Prussiens seuls"], "Waterloo : Anglais et Prussiens.");
+  Q("revolution", "contexte", "Quel régime revient pendant la Restauration (1815-1830) ?", "La monarchie constitutionnelle", ["La monarchie absolue de droit divin", "La république", "L'empire"], "La Restauration dure jusqu'à la révolution de 1830.");
+  Q("revolution", "personnage", "Quel roi règne pendant la monarchie de Juillet (1830-1848) ?", "Louis-Philippe", ["Louis XVIII", "Charles X", "Louis-Napoléon"], "Louis-Philippe, soutenu par la bourgeoisie.");
+  Q("revolution", "contexte", "Sur quel groupe s'appuie la monarchie de Juillet ?", "La bourgeoisie", ["La noblesse", "Le clergé", "Les ouvriers"], "Louis-Philippe est soutenu par la bourgeoisie.");
+  Q("revolution", "date", "Quelles sont les dates de la IIe République ?", "1848-1852", ["1792-1799", "1830-1848", "1870-1940"], "1848-1852 : IIe République.");
+  Q("revolution", "personnage", "Quel poète joue un rôle important dans la proclamation de la IIe République ?", "Alphonse de Lamartine", ["Victor Hugo", "Léon Gambetta", "Jules Ferry"], "1848 : Lamartine.");
+  Q("revolution", "personnage", "Quel nom est associé à l'abolition de l'esclavage en 1848 ?", "Victor Schœlcher", ["Jules Ferry", "Aristide Briand", "Adolphe Thiers"], "1848 : abolition de l'esclavage (Victor Schœlcher).");
+  Q("revolution", "contexte", "Quel droit de vote est instauré en 1848 ?", "Le suffrage universel masculin", ["Le suffrage censitaire", "Le vote des femmes", "Le vote réservé aux propriétaires"], "1848 : suffrage universel masculin et 1re élection présidentielle.");
+  Q("revolution", "personnage", "Qui est élu lors de la 1re élection présidentielle au suffrage universel masculin ?", "Louis-Napoléon", ["Alphonse de Lamartine", "Louis-Philippe", "Léon Gambetta"], "Louis-Napoléon est élu en 1848, puis proclame le Second Empire en 1852.");
+  Q("revolution", "date", "En quelle année Louis-Napoléon proclame-t-il le Second Empire ?", "1852", ["1848", "1804", "1870"], "1852 : il renverse la République et proclame le Second Empire.");
+  Q("revolution", "personnage", "Quel dirigeant prussien est associé à la guerre franco-prussienne de 1870 ?", "Bismarck", ["Cavour", "Metternich", "Frédéric II"], "Guerre franco-prussienne (Bismarck).");
+  Q("revolution", "lieu", "Où Napoléon III est-il fait prisonnier en 1870 ?", "À Sedan", ["À Waterloo", "À Paris", "À Austerlitz"], "Défaite de Sedan : fin du Second Empire.");
+  Q("revolution", "personnage", "Quel républicain prend le pouvoir et proclame la République après Sedan ?", "Léon Gambetta", ["Adolphe Thiers", "Jules Ferry", "Aristide Briand"], "Léon Gambetta et les républicains proclament la République.");
+  Q("revolution", "date", "Quelles sont les dates de la IIIe République ?", "1870-1940", ["1848-1852", "1852-1870", "1870-1918"], "1870-1940 : IIIe République.");
+  Q("revolution", "date", "En quelle année a lieu la Commune de Paris ?", "1871", ["1848", "1870", "1830"], "1871 : la Commune de Paris.");
+  Q("revolution", "personnage", "Quel gouvernement réprime la Commune de Paris ?", "Celui d'Adolphe Thiers", ["Celui de Léon Gambetta", "Celui de Napoléon III", "Celui de Jules Ferry"], "Mouvement révolutionnaire réprimé par le gouvernement d'Adolphe Thiers.");
+  Q("revolution", "personnage", "Qui rend l'école gratuite, laïque et obligatoire en 1881-1882 ?", "Jules Ferry", ["Aristide Briand", "Léon Gambetta", "Victor Schœlcher"], "Lois Jules Ferry (1881-1882).");
+  Q("revolution", "contexte", "Quelles sont les trois caractéristiques de l'école de Jules Ferry ?", "Gratuite, laïque et obligatoire", ["Payante, religieuse et facultative", "Gratuite, religieuse et obligatoire", "Laïque, payante et obligatoire"], "1881-1882 : école gratuite, laïque, obligatoire.");
+  Q("revolution", "date", "En quelle année est votée la loi de séparation des Églises et de l'État ?", "1905", ["1881", "1871", "1914"], "1905, avec Aristide Briand.");
+  Q("revolution", "personnage", "Quel homme politique est associé à la loi de 1905 ?", "Aristide Briand", ["Jules Ferry", "Adolphe Thiers", "Léon Gambetta"], "Loi de séparation des Églises et de l'État (Aristide Briand).");
+  Q("revolution", "date", "Quelles sont les dates de la Première Guerre mondiale ?", "1914-1918", ["1870-1871", "1905-1914", "1939-1945"], "1914-1918 : Première Guerre mondiale.");
+  C("revolution", "Remets ces régimes dans l'ordre :", ["Consulat", "Ier Empire", "Restauration", "Monarchie de Juillet"], "1799 → 1804 → 1815 → 1830.");
+  C("revolution", "Remets ces régimes dans l'ordre :", ["IIe République", "Second Empire", "Commune de Paris", "Loi de séparation des Églises et de l'État"], "1848 → 1852 → 1871 → 1905.");
+  C("revolution", "Remets ces batailles de Napoléon dans l'ordre :", ["Austerlitz", "Campagne de Russie", "Bérézina", "Waterloo"], "1805 → 1812 (Russie, puis la Bérézina au retour) → 1815 Waterloo.");
+
   // ─────────────── TOUTES PÉRIODES ───────────────
   C("melange", "Grande chronologie : remets dans l'ordre", ["Bataille de Marathon", "Bataille d'Actium", "Baptême de Clovis", "Bataille de Hastings"], "-490 → -31 → 496 → 1066.");
   C("melange", "Grande chronologie : remets dans l'ordre", ["Alexandre conquiert la Perse", "Sac de Rome par Alaric", "Charlemagne empereur", "Début de la guerre de Cent Ans"], "-331 → 410 → 800 → 1337.");
@@ -231,5 +300,8 @@
   // Identifiant stable (calculé à partir du texte) : la progression enregistrée
   // reste valable même si on ajoute ou retire des questions plus tard.
   const hash = (s) => { let h = 5381; for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) | 0; return (h >>> 0).toString(36); };
-  window.QUESTIONS = L.map((x) => ({ id: hash(x.t + "|" + x.q + "|" + (x.ok || x.order.join("/"))), ...x }));
+  C("melange", "Grande chronologie : remets dans l'ordre", ["Édit de Nantes", "Édit de Fontainebleau", "Encyclopédie", "Révolution"], "1598 → 1685 → 1751 → 1789.");
+  C("melange", "Le Saint Empire, de sa naissance à sa fin : remets dans l'ordre", ["Otton Ier fonde le Saint Empire", "Bataille de Bouvines", "Défenestration de Prague", "Fin du Saint Empire"], "962 → 1214 → 1618 → 1806.");
+
+  window.QUESTIONS =L.map((x) => ({ id: hash(x.t + "|" + x.q + "|" + (x.ok || x.order.join("/"))), ...x }));
 })();
